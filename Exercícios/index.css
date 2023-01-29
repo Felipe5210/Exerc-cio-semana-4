@@ -23,7 +23,12 @@
 
 body {
   background-color: var(--yellow);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 
 .header {
@@ -36,8 +41,12 @@ body {
   background-color: var(--green);
 }
 
-.title {
-  color: var(--yellow);
-  font-size: 36px;
-  font-weight: 700;
+footer {
+  font-size: 20px;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  margin: 0 20px;
 }
